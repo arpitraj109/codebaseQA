@@ -17,7 +17,7 @@ async function startServer() {
         console.log(" Connected to PostgreSQL");
 
         app.listen(PORT, () => {
-            console.log(` Server running on http://localhost:${PORT}`);
+             console.log(`Server started on port ${PORT}`);
         });
     } catch (err) {
         console.error(" Database connection failed");
