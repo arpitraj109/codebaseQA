@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Codebase Q&A Backend",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "migration:create": "node-pg-migrate create",
+    "migration:up": "node-pg-migrate up -m ./migration.config.js",
+    "migration:down": "node-pg-migrate down -m ./migration.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fast-glob": "^3.3.3",
+    "mime-types": "^3.0.2",
+    "multer": "^2.2.0",
+    "openai": "^6.48.0",
+    "pg": "^8.22.0",
+    "simple-git": "^3.36.0",
+    "unzipper": "^0.12.5",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^8.0.4",
+    "nodemon": "^3.1.14"
+  }
+}

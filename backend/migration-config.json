@@ -1,0 +1,10 @@
+{
+  "databaseUrl": {
+    "connectionString": "postgresql://neondb_owner:YOUR_PASSWORD@ep-young-bread-azdgs9f1-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb",
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  },
+  "migrations-dir": "migrations",
+  "migrations-table": "pgmigrations"
+}
