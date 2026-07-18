@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(requestLogger);
 
-app.use("/health", healthRoutes);
+app.use("/api/health", healthRoutes);
 app.use("/api/projects", projectRoutes);
 app.use("/api/projects", questionRoutes);
 app.use("/api/projects", refactorRoutes);
