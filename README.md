@@ -1,5 +1,15 @@
 # Codebase Q&A with Proof
 
+## Live Demo
+
+Frontend: https://codebase-qa-six.vercel.app
+
+Backend API Health:
+https://codebaseqa-m83k.onrender.com/api/health
+
+GitHub Repository:
+https://github.com/arpitraj109/codebaseQA
+
 Analyze software codebases — upload a ZIP archive or import a public GitHub repository — then ask natural language questions and receive AI-generated answers backed by source-level evidence. Also includes AI-generated refactor suggestions with caching.
 
 ---
